@@ -1,0 +1,7 @@
+body {
+  --bg-color: var(--black);
+  --main-color: var(--white);
+
+  background-color: var(--bg-color);
+  color: var(--main-color);
+}
