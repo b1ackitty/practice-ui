@@ -1,0 +1,51 @@
+header {
+  margin-block-start: 2.75rem;
+  padding-inline: 2.5rem;
+  background-color: var(--gray-800);
+  height: 4.5rem;
+  display: grid;
+  grid-template-columns: max-content 1fr max-content;
+  align-items: center;
+  gap: 3.125rem;
+
+  .nav__container {
+
+    .nav__menus {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      gap: 1.25rem;
+      font-size: 0.75rem;
+      line-height: 0.8;
+      text-transform: uppercase;
+
+      li {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        gap: 0.25rem;
+
+        &:nth-of-type(2) {
+          background: var(--white);
+          color: var(--gray-800);
+          padding: .5rem 1rem;
+          border-radius: 1rem;
+        }
+
+        button {
+          background: none;
+          color: inherit;
+          border: 0;
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+
+  .nav__profile {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: .875rem;
+  }
+}

@@ -6,11 +6,55 @@
   <title>Disney+</title>
   <meta name="description" content="시안을 클론하면서 HTML & CSS를 연습합니다." />
   <link rel="icon" href="/assets/images/logo/disney.png" />
-  <link rel="preconnect" href="https://your-font-file-host/">
-  <link rel="stylesheet" href="https://your-font-file-host/inter.css">
+  <link rel="preconnect" href="https://rsms.me/">
+  <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
   <link rel="stylesheet" href="/assets/styles/main.css" />
 </head>
 <body>
-  <h1>Disney+</h1>
+  <header>
+    <h1 class="logo">
+      <a href="#">
+        <span class="sr-only">Disney+</span>
+        <img src="./assets/images/logo/disney.png" alt="" width="63.87" height="35" aria-hidden="true" />
+      </a>
+    </h1>
+    <nav class="nav__container">
+      <ul class="nav__menus">
+        <li>
+          <img src="./assets/images/icons/home.png" alt="" width="16" height="16" />
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <img src="./assets/images/icons/play.svg" alt="" width="16" height="16" />
+          <a href="#">Continue Watching</a>
+        </li>
+        <li>
+          <img src="./assets/images/icons/camera.png" alt="" width="16" height="16" />
+          <a href="#">Movies</a>
+        </li>
+        <li>
+          <img src="./assets/images/icons/tv.png" alt="" width="16" height="16" />
+          <a href="#">Series</a>
+        </li>
+        <li>
+          <img src="./assets/images/icons/star.svg" alt="" width="16" height="16" />
+          <a href="#">Originals</a>
+        </li>
+        <li>
+          <img src="./assets/images/icons/search.svg" alt="" width="16" height="16" />
+          <button type="button">Search</button>
+        </li>
+        <li hidden>
+          <form class="form-search" action="#" method="get">
+            <label class="sr-only" for="formSearch">Search</label><input type="search" name="search" id="formSearch" placeholder="SEARCH" />
+          </form>
+        </li>
+      </ul>
+    </nav>
+    <div class="nav__profile">
+      <span class="profile__username">user</span>
+      <img src="./assets/images/profiles/belle.png" alt="" width="40" height="40" />
+    </div>
+  </header>
 </body>
 </html>
