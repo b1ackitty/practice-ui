@@ -8,6 +8,7 @@
   --gray-700: #272b3b;
   --gray-800: #1d1e2b;
   --gray-900: #12141f;
+  --gray-950: #050714;
 
   --red-500: #ff2929;
 
@@ -16,4 +17,10 @@
   --teal-400: #02d6e8;
   --teal-500: #09bcd8;
   --teal-800: #056372;
+
+  --bg-color: var(--black);
+  --main-color: var(--white);
+
+  background-color: var(--bg-color);
+  color: var(--main-color);
 }
