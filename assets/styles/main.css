@@ -11,6 +11,7 @@
 @import "./components/_footer.css" layer(components);
 @import "./components/_carousel.css" layer(components);
 @import "./components/_brands.css" layer(components);
+@import "./components/_continue-watching.css" layer(components);
 
 @import "./_demo.css";
 
