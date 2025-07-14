@@ -4,8 +4,7 @@
     grid-template-columns: repeat(6, max-content);
     align-items: center;
     justify-items: center;
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: space-between;
 
     li {
       block-size: 7rem;

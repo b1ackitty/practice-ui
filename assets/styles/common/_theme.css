@@ -23,4 +23,6 @@
 
   background-color: var(--bg-color);
   color: var(--main-color);
+
+  --max-width: 1317px;
 }

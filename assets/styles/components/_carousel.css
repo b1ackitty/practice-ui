@@ -1,7 +1,4 @@
 .carousel {
-  --width: 1317px;
-  --height: 439px;
-
   display: grid;
   grid-template-rows: max-content 3rem;
   justify-items: center;
@@ -11,8 +8,8 @@
   .carousel__container {
     overflow: hidden;
     position: relative;
-    width: var(--width);
-    height: var(--height);
+    width: var(--max-width);
+    aspect-ratio: 1317/439;
 
     li {
       position: absolute;
@@ -20,11 +17,11 @@
       height: inherit;
 
       &:nth-child(2) {
-        left: var(--width);
+        left: var(--max-width);
       }
 
       &:nth-child(3) {
-        left: calc(var(--width) * 2);
+        left: calc(var(--max-width) * 2);
       }
     }
     
