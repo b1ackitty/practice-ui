@@ -10,6 +10,7 @@
 @import "./components/_header.css" layer(components);
 @import "./components/_footer.css" layer(components);
 @import "./components/_carousel.css" layer(components);
+@import "./components/_brands.css" layer(components);
 
 @import "./_demo.css";
 

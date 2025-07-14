@@ -1,0 +1,20 @@
+.brands {
+  .brands__container {
+    display: grid;
+    grid-template-columns: repeat(6, max-content);
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    li {
+      block-size: 7rem;
+      /* inline-size: 12.5rem; */
+      padding-inline: 1.875rem;
+      align-content: center;
+      background: linear-gradient(180deg, var(--gray-600) 0%, var(--gray-800) 100%);
+      box-shadow: 0px 10px 14px 0px var(--black);
+      border-radius: 8px;
+    }
+  }
+}
